@@ -1,0 +1,12 @@
+
+openapi: 3.0.0
+info:
+  title: API Produtos
+  version: 1.0.0
+paths:
+  /api/v1/produtos:
+    get:
+      summary: Lista produtos
+      responses:
+        "200":
+          description: OK
